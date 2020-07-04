@@ -73,10 +73,7 @@
         max-width: 80%;
         align-items: center;
     }
-.main-nav li {
-                margin: 0;
-				margin-left: -40px;
-            }
+
 
     .nav{
         display: block;
