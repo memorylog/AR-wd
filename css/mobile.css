@@ -1,0 +1,139 @@
+@media only screen and (max-width: 600px) {
+
+    /*----body----*/
+    body{
+        width: 100%;
+        margin: 0;
+        font-size: 14px;
+        font-family: Montserrat;
+        background: #fff;
+        padding: 0;
+        align-items: center;
+
+    }
+
+    h1 {
+        font-size: 3vw;
+        text-align: center;
+        align-items: center;
+    }
+    
+    
+
+    .imgtxt {
+        display: none;
+    }
+
+    #breadcrumb{
+        display: none;
+    }
+
+    .section {
+        width: 100%;
+        margin-top: 0;
+        max-width: 100%;
+        margin: 0;
+        height: 100%;
+        border: 0px;
+        border-top: 10px solid #32327B;
+        border-radius: 0px;
+        align-items: center;
+        text-align: center;
+        padding: inherit;
+        padding-bottom: 10%;
+
+    }
+
+    .section h1 {
+        font-size: 3vw;
+        text-align: center;
+        align-items: center;
+    }
+
+    .section h2 {
+        width: 100%;
+        margin: 10px;
+        align-items: center;
+    }
+    .section li {
+        padding:20px;
+        list-style:none;
+        border-bottom: 2px dashed #32327B;
+    }
+
+
+    button {
+        max-width: 88%;
+        align-items: center;
+    }
+
+    .desc{
+        color: #000;
+        margin: auto;
+        max-width: 80%;
+        align-items: center;
+    }
+
+
+    .nav{
+        display: block;
+        width: auto;
+    }
+
+    .logo {
+    margin-left: 20px;
+	}
+
+
+    footer {
+        display: block;
+        width: 100%;
+        height: 30px;
+        background-color: #32327B;
+        text-align: center;
+        padding: 5px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        margin-bottom: 0;
+        bottom: 0;
+
+    }
+
+    .row {
+        width: 90%;
+        margin:auto;
+        align-items: center;
+        margin-right:6%;
+    }
+
+    .column {
+        float: right;
+        width: 90%;
+        margin: auto 0;
+        align-items:center;
+    }
+    .content {
+        width:90%;
+    }   
+}
+
+@media screen and (max-width: 900px) {
+    .column {
+        margin: auto 0;
+        width: 90%;
+    }
+    
+    .imgtxt {
+    position: absolute;
+    top: 300px;
+    left: 40%;
+    color: #fff;
+    font-size:2vw;
+    font-family: "Georgia";
+    font-style:italic;
+}
+}
+
+
+
